@@ -1,0 +1,49 @@
+LTspice 24.0.12 for Windows
+Circuit: * C:\Users\Alex\Documents\LTspice\etaj3.asc
+Start Time: Mon Jan 13 14:51:44 2025
+solver = Normal
+Maximum thread count: 12
+tnom = 27
+temp = 27
+method = modified trap
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-05
+Gmin = 1.6455e-06
+Gmin = 1.76685e-07
+Gmin = 1.89714e-08
+Gmin = 2.03704e-09
+Gmin = 2.18725e-10
+Gmin = 2.34854e-11
+Gmin = 2.52173e-12
+Gmin = 2.70769e-13
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+N-Period=1
+Fourier components of V(out_3)
+DC component:-1.39614e-08
+
+Harmonic	Frequency	 Fourier 	Normalized	 Phase  	Normalized
+ Number 	  [Hz]   	Component	 Component	[degree]	Phase [deg]
+    1   	 3.000e+3	 1.500e+0	 1.000e+0	   90.04°	    0.00°
+    2   	 6.000e+3	 7.523e-8	 5.016e-8	  159.65°	   69.61°
+    3   	 9.000e+3	 8.570e-8	 5.715e-8	  150.50°	   60.46°
+    4   	 1.200e+4	 9.174e-8	 6.117e-8	  139.26°	   49.22°
+    5   	 1.500e+4	 9.045e-8	 6.031e-8	  140.37°	   50.32°
+    6   	 1.800e+4	 1.004e-7	 6.692e-8	  127.23°	   37.19°
+    7   	 2.100e+4	 1.135e-7	 7.569e-8	  119.74°	   29.70°
+    8   	 2.400e+4	 1.271e-7	 8.474e-8	  120.25°	   30.21°
+    9   	 2.700e+4	 1.387e-7	 9.248e-8	  117.55°	   27.50°
+Partial Harmonic Distortion: 0.000020%
+Total Harmonic Distortion:   0.030206%
+
+
+Total elapsed time: 0.162 seconds.
+
